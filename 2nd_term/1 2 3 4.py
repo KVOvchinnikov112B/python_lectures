@@ -24,7 +24,7 @@ s5 = Student("Анастасия",18,"Окёнинсберг","Ж",177013)
 students = [s1, s2, s3, s4, s5]
 
 for i in range(0,len(students)):
-    print(students[i].naidi_raboty_eblan())
+    print(students[i].naidi_raboty())
 
 #2 ВОПРОС
 
