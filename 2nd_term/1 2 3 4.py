@@ -10,7 +10,7 @@ class Student:
         self.sex = sex #NOW
         self.stud = stud
         
-    def naidi_raboty_eblan(self):
+    def naidi_raboty(self):
         print(self.name,',',self.age,',',self.surname,',',self.sex,',',self.stud)
 
 # Создаем объекты по шаблону (классу)
@@ -92,5 +92,5 @@ if ind == 'no':
 
 for j in range (len(students)):
     if (target == students_age[j]):
-        print(students[j].naidi_raboty_eblan())
+        print(students[j].naidi_raboty())
         break
