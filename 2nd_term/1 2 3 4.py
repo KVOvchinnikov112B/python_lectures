@@ -45,7 +45,7 @@ d = bubble_sort(students_age)
 for i in range(len(d)):
     for j in range (len(students)):
         if (d[i] == students_age[j]):
-            print(students[j].naidi_raboty_eblan())
+            print(students[j].naidi_raboty())
             students_age[j] = ''
 
 
