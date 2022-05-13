@@ -73,7 +73,7 @@ def bin_search(target, nums):
             # Нужно рассмотреть правую половину, поэтому сдвигаем левый указатель за середину
             l = m + 1
     # Возвращаем -1 если в цикле ни один элемент не прошел условие
-    return ('Пошёл нахуй')
+    return ('no')
     
 
 
@@ -87,7 +87,7 @@ target = 31
 ind = bin_search(target, sigma)
 
 # Выводим число и его индекс
-if ind == 'Пошёл нахуй':
+if ind == 'no':
     print("Число %d не было найдено!" % target)
 
 for j in range (len(students)):
