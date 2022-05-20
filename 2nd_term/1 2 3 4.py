@@ -1,10 +1,9 @@
 class Student:
     def __init__(self, name, age, surname, sex, stud):
-        # Заполняем поля (внутренние переменные) объекта
         self.name = name
         self.age = age
         self.surname = surname
-        self.sex = sex #NOW
+        self.sex = sex
         self.stud = stud
         
     def naidi_raboty(self):
